@@ -1,0 +1,65 @@
+.menu{
+    width: 960px;
+    height: 40px;
+    border: 1px solid #ccc;
+    float: right;
+    margin-top: 60px;
+    background: #006699;
+    }
+    
+    .menu ul{}
+    
+    .menu ul li{
+    list-style: none;
+    float: left;
+    }
+    
+    .menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 0px solid #ccc;
+    color: #fff; 
+    }
+    
+    .menu ul li a:hover{
+    background: #fff;
+    color: #006699;
+    transition: background 1s, color 1s;
+    }
+
+    .slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 00%;
+    
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width:100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}

@@ -1,0 +1,38 @@
+
+table {
+    border-collapse: separate;
+    border-spacing: 7px;
+    
+    
+ }
+ td, th {
+    background: #fff;
+    color:seagreen;
+    border: 10px;
+    padding: 0.7%;
+    
+ }
+h1{
+    color: seagreen;
+}
+body{
+    color: rgb(19, 98, 53);
+     
+    
+}
+a{
+    color: black;
+    
+    background: red;
+}
+table{
+    width: 85%;
+    border:"2";
+    cellpadding:"15";
+    align="center";
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
